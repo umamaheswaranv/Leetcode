@@ -1,4 +1,5 @@
 // Leetcode Problem No 11
+''' Area is maximum when height and breadth is maximum...by choosing min we get maximum valuefor height.how consider (7,8) left wall is 7 right wall is 8 the water can fill upto 7 isnt it'''
 from typing import List
 def maxArea(height:List[int])-> int:
     l,r=0,len(height)-1
